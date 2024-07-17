@@ -1,0 +1,127 @@
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+}
+body{
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+nav {
+  display:flex;
+  position: absolute;
+  background-color: rgb(201, 218, 218);
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  }
+
+.Left-Item{
+  margin-left: 5px;
+}
+
+.Right-Item{
+  margin-right: 5px;
+}
+
+.navbar-elements-spacing{
+ margin-left: 5px;
+ margin-right: 5px;
+}
+
+a:hover{
+  color: crimson;
+}
+
+.banner-div{
+  margin: auto;
+  width:100%;
+  background-color: black;
+}
+
+@keyframes slides {
+  0%{
+    transform:translateX(0);
+  }
+  25%{
+    transform: translateX(-100%);
+  }
+  50%{
+    transform: translateX(-200%);
+  }
+  75%{
+    transform: translateX(-300%);
+  }
+  100%{
+    transform: translateX(-400%);
+  }
+}
+
+.banner-contaiiner{
+  padding-top: 70px;
+  width: 85vmin;
+  overflow: hidden;
+  margin: auto;
+
+}
+
+.banner-wrapper{
+  width: 100%;
+  display: flex;
+  animation: slides 20s linear infinite;
+}
+
+.banner-img{
+  width: 100%;
+}
+
+.div-align{
+  margin: auto;
+}
+
+
+.taskbutton{
+  width: 200px;
+  height: 100px;
+  border: 2px solid orange;
+  margin: auto;
+}
+
+.taskDiv{
+  border: 2px solid orange;
+  color: black;
+}
+
+.calNums{
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  border: 5px solid olivedrab;
+}
+
+.calInp{
+  height: 50px;
+  width: 190px;
+  border-radius: 5px;
+  border: 5px solid orange;
+}
+
+
+button{
+  height: 30px;
+  width: 30px;
+  color: black;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+
+span{
+  height: 30px;
+  width: 60px;
+  color: black;
+  font-size: 2rem;
+}
